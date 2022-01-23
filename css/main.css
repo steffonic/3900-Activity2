@@ -1,0 +1,175 @@
+
+/*************************************
+This css file includes several different formatting examples
+GENERAL
+**************************************/
+a {
+ text-decoration: none;
+  color: #a83285;
+ }
+
+img {
+max-width: 100%;
+
+}
+
+ body {
+   font-family: 'Open Sans', sans-serif;
+ }
+
+
+ #wrapper {
+   max-width: 1020px;
+   margin: auto;
+   padding: 0 10%;
+ }
+
+ h3 {
+     margin: 0 0 1em 0;
+ }
+
+
+/*************************************
+HEADING
+**************************************/
+
+header {
+  float: left;
+  margin: 0 0 20px 0;
+  padding: 2px 0 0 0;
+  width: 100%;
+
+}
+
+.center {
+ text-align: center
+}
+
+
+#logo {
+   text-align: center;
+   margin: 0;
+
+ }
+
+ h1  {
+ font-family: 'Trebuchet MS', sans-serif;
+ margin: 12px 0;
+ font-size: 2 em;
+ font-weight: medium;
+ line-height: 0.75;
+ text-align: center;
+
+   color: #ff0808;
+
+ }
+
+ h2  {
+ font-size: 1.00em;
+ font-weight: normal;
+ margin: -5px 0 0;
+   color: #df330a;
+ }
+
+
+h3  {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: 15px 0 0;
+}
+
+
+/*************************************
+NAVIGATION
+**************************************/
+ nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+  }
+
+  nav ul  {
+    list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+  display: inline-block;
+
+}
+
+/*************************************
+FOOTER
+**************************************/
+ .footer {
+ font-size: 0.75em;
+ text-align: center;
+ clear: both;
+ padding-top: 50px;
+ color: #ccc;
+ }
+
+/*************************************
+PAGE:
+**************************************/
+.mydiv {background: lightblue; width:250px; height: 250px;}
+
+.myimage {
+    float:left;
+    width:150px;
+    height:175px;
+    margin:20px;
+    border-radius: 20px;
+}
+
+.dog-photo {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto 30px;
+    border-radius: 5px;
+}
+
+
+
+ /*************************************
+PAGE: ABOUT
+**************************************/
+.profile-photo {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto 30px;
+    border-radius: 5px;
+}
+
+/*************************************
+COLORS
+**************************************/
+
+
+ /* dark purple header*/
+  header {
+   background: #0e0e4f;
+   border-color: #4a4a87;
+ }
+
+
+
+/* nav background on mobile devices*/
+nav {
+   background: #a4daeb; /*same as on standard browser*/
+}
+
+nav a, nav a:visited {
+	color: #043140;
+}
+
+/* selected nav link color*/
+nav a.selected, nav a:hover {
+  color: #536970;
+}
+/* site body*/
+body {
+    background-color: #a4daeb;
+    color: #000;
+}
