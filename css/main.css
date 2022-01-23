@@ -60,7 +60,7 @@ header {
  line-height: 0.75;
  text-align: center;
 
-   color: #ff0808;
+   color: #09171c;
 
  }
 
@@ -135,11 +135,12 @@ PAGE:
  /*************************************
 PAGE: ABOUT
 **************************************/
-.profile-photo {
+.main-photo {
     display: block;
-    max-width: 400px;
+    max-width: 500px;
+	max-height: 400px;
     margin: 0 auto 30px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 /*************************************
@@ -170,6 +171,6 @@ nav a.selected, nav a:hover {
 }
 /* site body*/
 body {
-    background-color: #a4daeb;
+    background-color: #a5bac2;
     color: #000;
 }
