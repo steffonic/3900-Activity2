@@ -151,7 +151,7 @@ PAGE: DOGS.HTML
 ********************/
 .dog-photo {
 	display: block;
-    max-width: 55%;
+    max-width: 45%;
     margin: 0 auto 30px;
     border-radius: 5px;
 }
@@ -161,7 +161,7 @@ PAGE: STUDIO.HTML
 ********************/
 .studio-photo {
 	display: block;
-    max-width: 55%;
+    max-width: 45%;
     margin: 0 auto 30px;
     border-radius: 5px;
 }
@@ -171,6 +171,17 @@ PAGE: STUDIO.HTML
    padding: 0 5%;
    text-align: center;
  }
+ 
+ /*******************
+PAGE: PROJECTS.HTML
+********************/
+.column-photo {
+	display: block;
+    max-width: 80%;
+    margin: 0 auto 30px;
+    border-radius: 5px;
+}
+
 
  /*************************************
 PAGE: ABOUT
