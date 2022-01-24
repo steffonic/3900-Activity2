@@ -19,9 +19,8 @@ max-width: 100%;
 
 
  #wrapper {
-   max-width: 1020px;
    margin: auto;
-   padding: 0 10%;
+   padding: 0 5%;
    text-align: center-left;
    float: right;
  }
@@ -87,7 +86,8 @@ NAVIGATION
 **************************************/
 .navrow{
 	background-color: #e8eaeb;
-	float: left;
+	float: top;
+	
 }
 
  nav {
@@ -150,8 +150,8 @@ PAGE: ABOUT
 **************************************/
 .main-photo {
     display: block;
-    max-width: 500px;
-	max-height: 400px;
+    max-width: 300px;
+	max-height: 400px
     margin: 0 auto 30px;
     border-radius: 10px;
 }
@@ -199,7 +199,10 @@ body {
 **CUSTOM
 ****************/
 
- picdiv{
+ #picdiv{
 	 float: left;
-	 margin-left: -50%;
  }
+ #contentdiv{
+	 padding-left: 340px;
+ }
+ 
