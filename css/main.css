@@ -135,13 +135,6 @@ PAGE:
     border-radius: 20px;
 }
 
-.dog-photo {
-    display: block;
-    max-width: 250px;
-    margin: 0 auto 30px;
-    border-radius: 5px;
-}
-
 /*******************
 PAGE: FAMILY.HTML
 ********************/
@@ -153,7 +146,15 @@ PAGE: FAMILY.HTML
     border-radius: 5px;
 }
 
-
+/*******************
+PAGE: DOGS.HTML
+********************/
+.dog-photo {
+	display: block;
+    max-width: 55%;
+    margin: 0 auto 30px;
+    border-radius: 5px;
+}
 
  /*************************************
 PAGE: ABOUT
