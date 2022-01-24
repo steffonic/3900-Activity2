@@ -22,7 +22,10 @@ max-width: 100%;
    max-width: 1020px;
    margin: auto;
    padding: 0 10%;
+   text-align: center-left;
+   float: right;
  }
+ 
 
  h3 {
      margin: 0 0 1em 0;
@@ -82,6 +85,11 @@ h3  {
 /*************************************
 NAVIGATION
 **************************************/
+.navrow{
+	background-color: #e8eaeb;
+	float: left;
+}
+
  nav {
 	text-align: center;
 	padding: 10px 0;
@@ -96,8 +104,13 @@ NAVIGATION
 
 nav li {
   display: inline-block;
-
 }
+
+nav-tabs {
+	color: #ffffff;
+	
+}
+
 
 /*************************************
 FOOTER
@@ -157,20 +170,36 @@ COLORS
 
 
 /* nav background on mobile devices*/
+/*
 nav {
-   background: #a4daeb; /*same as on standard browser*/
+   background: #a4daeb; 
+   color: #851010;
 }
+*/
 
+/*
 nav a, nav a:visited {
 	color: #043140;
 }
+*/
 
 /* selected nav link color*/
+/*
 nav a.selected, nav a:hover {
   color: #536970;
 }
+*/
 /* site body*/
 body {
-    background-color: #a5bac2;
+    background-color: #ffffff;
     color: #000;
 }
+
+/****************
+**CUSTOM
+****************/
+
+ picdiv{
+	 float: left;
+	 margin-left: -50%;
+ }
