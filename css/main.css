@@ -1,6 +1,6 @@
 
 /*************************************
-This shall be used as a base for main CSS
+This will be used as a base for main CSS
 **************************************/
 a {
   text-decoration: none;
@@ -9,7 +9,6 @@ a {
 
 img {
 	max-width: 75%;
-
 }
 
  body {
@@ -39,7 +38,6 @@ header {
   margin: 0 0 20px 0;
   padding: 2px 0 0 0;
   width: 100%;
-
 }
 
 .center {
@@ -50,27 +48,24 @@ header {
 #logo {
    text-align: center;
    margin: 0;
-
  }
 
  h1  {
- font-family: 'Trebuchet MS', sans-serif;
- margin: 12px 0;
- font-size: 2 em;
- font-weight: medium;
- line-height: 0.75;
- text-align: center;
-
-   color: #09171c;
-
+	 font-family: 'Trebuchet MS', sans-serif;
+	 margin: 12px 0;
+	 font-size: 2 em;
+	 font-weight: medium;
+	 line-height: 0.75;
+	 text-align: center;
+	 color: #09171c;
  }
 
  h2  {
- font-size: 1.00em;
- font-weight: normal;
- margin: -5px 0 0;
-   color: #09171c;
- }
+	 font-size: 1.00em;
+	 font-weight: normal;
+	 margin: -5px 0 0;
+	 color: #09171c;
+}
 
 
 h3  {
@@ -107,7 +102,11 @@ nav li {
 
 nav-tabs {
 	color: #ffffff;
-	
+
+}
+
+.nav li a {
+    color: #1b1b40;
 }
 
 
@@ -115,7 +114,7 @@ nav-tabs {
 FOOTER
 **************************************/
  .footer {
- font-size: 0.75em;
+ font-size: 0.85em;
  text-align: center;
  clear: both;
  padding-top: 50px;
@@ -135,7 +134,49 @@ PAGE:
     border-radius: 20px;
 }
 
-/*******************
+
+
+ /*************************************
+PAGE: ABOUT
+**************************************/
+.main-photo {
+    display: block;
+    max-width: 75%;
+	max-height: 75%
+    margin: 0 auto 30px;
+    border-radius: 10px;
+}
+
+/*************************************
+COLORS
+**************************************/
+
+
+ /* dark purple header*/
+  header {
+   background: #0e0e4f;
+   border-color: #4a4a87;
+ }
+
+
+/*main body*/
+body {
+    background-color: #ffffff;
+    color: #000;
+}
+
+/****************
+**CUSTOM PAGES
+****************/
+
+ #picdiv{
+	 float: center;
+ }
+ #contentdiv{
+	 float: left;
+ }
+ 
+ /*******************
 PAGE: FAMILY.HTML
 ********************/
 
@@ -181,66 +222,4 @@ PAGE: PROJECTS.HTML
     margin: 0 auto 30px;
     border-radius: 5px;
 }
-
-
- /*************************************
-PAGE: ABOUT
-**************************************/
-.main-photo {
-    display: block;
-    max-width: 300px;
-	max-height: 400px
-    margin: 0 auto 30px;
-    border-radius: 10px;
-}
-
-/*************************************
-COLORS
-**************************************/
-
-
- /* dark purple header*/
-  header {
-   background: #0e0e4f;
-   border-color: #4a4a87;
- }
-
-
-
-/* nav background on mobile devices*/
-/*
-nav {
-   background: #a4daeb; 
-   color: #851010;
-}
-*/
-
-/*
-nav a, nav a:visited {
-	color: #043140;
-}
-*/
-
-/* selected nav link color*/
-/*
-nav a.selected, nav a:hover {
-  color: #536970;
-}
-*/
-/* site body*/
-body {
-    background-color: #ffffff;
-    color: #000;
-}
-
-/****************
-**CUSTOM
-****************/
-
- #picdiv{
-	 float: left;
- }
- #contentdiv{
-	 padding-left: 340px;
- }
  
